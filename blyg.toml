@@ -1,0 +1,14 @@
+# Where the notes live (private, in the vault) and what the blyg says about itself.
+source = "~/vault/work/blyg"
+out = "_site"            # a git worktree on the `live` branch, which GitHub Pages serves
+quiet_minutes = 30       # an edit becomes a new version after this long untouched
+
+site = "https://blyg.shingai.xyz/"
+title = "Shingai Thornton"
+description = "Field notes from inside the Blygger network."
+generator = "shingai-press/0.1"
+generator_url = "https://github.com/rsthornton/blyg"
+
+[author]
+name = "Shingai Thornton"
+url = "https://shingai.xyz/"

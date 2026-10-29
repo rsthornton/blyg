@@ -1,0 +1,16 @@
+/* Light first, Frost colours, radius 8px or less, no shadows. */
+:root { --paper: #eceff4; --ink: #2e3440; --ink-2: #4c566a; --rule: #d8dee9; --link: #5e81ac; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, sans-serif; }
+main, footer { max-width: 40rem; margin: 0 auto; padding: 24px 16px; }
+a { color: var(--link); }
+h1 { font-size: 1.5rem; margin: 0 0 16px; }
+.items { list-style: none; padding: 0; margin: 0; }
+.items li { padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.items span, .log, footer { color: var(--ink-2); font-size: 0.875rem; }
+article { background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 16px; }
+article img { max-width: 100%; }
+pre { overflow-x: auto; background: var(--paper); border-radius: 4px; padding: 12px; }
+blockquote { margin: 0; padding-left: 12px; border-left: 3px solid var(--rule); color: var(--ink-2); }
+.gone { color: var(--ink-2); font-style: italic; }
+.log { padding-left: 20px; }
