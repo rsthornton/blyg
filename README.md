@@ -47,4 +47,6 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python -m press publish --push
 ```
 
+**Auto-publish, off.** `launchd/xyz.shingai.blyg.publish.plist` runs `press publish --push` every 10 minutes once copied to `~/Library/LaunchAgents/` and loaded. It is not loaded: publishing is by hand until there is a reason to change that.
+
 The tests include one where [blyg-watch](https://github.com/halcyonic-systems/blyg-watch)'s watcher reads the built blyg, when that repo is checked out beside this one.

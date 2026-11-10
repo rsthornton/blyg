@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Auto-publish scaffolding. Not loaded; publishing is by hand (press publish --push).
+       To turn it on: copy this file to ~/Library/LaunchAgents/ and run
+       launchctl load ~/Library/LaunchAgents/xyz.shingai.blyg.publish.plist
+       It then runs press publish --push every 10 minutes; the 30-minute quiet period in
+       blyg.toml still decides when an edit becomes a version. -->
+  <key>Label</key><string>xyz.shingai.blyg.publish</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/home/Desktop/halcyonic-projects/active/blyg/.venv/bin/python</string>
+    <string>-m</string><string>press</string><string>publish</string><string>--push</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/home/Desktop/halcyonic-projects/active/blyg</string>
+  <key>StartInterval</key><integer>600</integer>
+  <key>StandardOutPath</key><string>/tmp/blyg-publish.log</string>
+  <key>StandardErrorPath</key><string>/tmp/blyg-publish.log</string>
+</dict>
+</plist>
