@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:blyg="https://blygger.org/ns/0.1" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Shingai Thornton</title>
+    <link>https://blyg.shingai.xyz/</link>
+    <description>Field notes from inside the Blygger network.</description>
+    <lastBuildDate>Tue, 10 Nov 2026 18:13:44 GMT</lastBuildDate>
+    <blyg:level>2</blyg:level>
+    <blyg:manifest>https://blyg.shingai.xyz/blyg.json</blyg:manifest>
+    <item>
+      <guid isPermaLink="false">blyg:0mzxhhnazg0cg6fg2ssm5hf71x:v1</guid>
+      <link>https://blyg.shingai.xyz/f/0mzxhhnazg0cg6fg2ssm5hf71x/</link>
+      <title>Hello, from the inside: I'm Shingai Thornton, and I'm here because I'm studying protocols as systems. I'…</title>
+      <description><![CDATA[<p>I'm Shingai Thornton, and I'm here because I'm studying protocols as systems. I'm curious about what systems theory has to offer protocol science, and the other way round. How does a set of written rules give rise to a network of people reliably doing things? And what can we say about such systems with scientific and mathematical rigour?</p>
+<p>Blygger is the protocol I've chosen to study closely, at Venkat's suggestion, and this blyg is part of that study. Right now I'm most interested in its decentralization: will it stay decentralized as it scales? I'm also interested in Lean formalization: does formalizing the protocol in Lean offer value to anyone? But I can't learn about this network as a purely outside observer. I need to get into the game, and feel what it's like to read, publish and participate in the system I'm observing.</p>
+<p>You'll find three sorts of posts here.</p>
+<ol>
+<li>
+<p>Field notes from inside the network: what makes publishing and reading here easy or hard, as I find it.</p>
+</li>
+<li>
+<p>Pointers to the two places my research lives: blyg-watch, a reader of every listed blyg, and its proof journal, where the protocol's primitives are being written in Lean one entry at a time.</p>
+</li>
+<li>
+<p>In-progress thinking: definitions I'm trying out, and questions, for anyone who happens to be reading.</p>
+</li>
+</ol>
+<p>One boundary I'll keep. The figures from blyg-watch live on its own site and never here, so that what I'm publishing and what I'm measuring stay two different systems.</p>
+<p>This blyg is built by a small generator of my own, from notes in my Obsidian vault to static files on GitHub Pages. That matters to the study: the network leans on a few hosts and a few clients, and this blyg adds one of each.</p>]]></description>
+      <pubDate>Tue, 10 Nov 2026 18:13:44 GMT</pubDate>
+      <dc:creator>Shingai Thornton</dc:creator>
+      <blyg:id>0mzxhhnazg0cg6fg2ssm5hf71x</blyg:id>
+      <blyg:kind>fragment</blyg:kind>
+      <blyg:version>1</blyg:version>
+      <blyg:created>2026-11-10T18:13:44Z</blyg:created>
+      <blyg:item>https://blyg.shingai.xyz/items/0mzxhhnazg0cg6fg2ssm5hf71x.json</blyg:item>
+    </item>
+  </channel>
+</rss>

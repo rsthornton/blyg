@@ -1,0 +1,15 @@
+{
+ "blyg": "0.4",
+ "level": 2,
+ "generator": "shingai-press/0.1",
+ "generator_url": "https://github.com/rsthornton/blyg",
+ "site": "https://blyg.shingai.xyz/",
+ "title": "Shingai Thornton",
+ "feed": "feed.xml",
+ "items": "items/index.json",
+ "updated": "2026-11-10T18:13:44Z",
+ "author": {
+  "name": "Shingai Thornton",
+  "url": "https://shingai.xyz/"
+ }
+}
